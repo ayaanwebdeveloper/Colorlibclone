@@ -1,0 +1,361 @@
+.h1h {
+    background-color: #333333;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: -10px;
+
+}
+.n1n {
+    width: 40%;
+    display: flex;
+    
+    
+}
+.logo {
+    width: 15%;
+    margin-left: 5%;
+    cursor: pointer;
+
+}
+.ht {
+    background-color: #131313;
+    color: #767676;
+    font-size: 20px;
+    width: 15%;
+    height: 100%;
+    margin-left: 2%;
+    
+    
+}
+.cu {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 250px;
+   color: gray;
+}
+.ci {
+    padding-left: 20px;
+    list-style: none;
+    font-size: 5vh;
+    cursor: pointer;
+    
+
+}
+
+#cart {
+    background-color: green;
+    color: white;
+}
+#cart:hover {
+    background-color: #222222;
+
+}
+#ca:hover {
+    color: white;
+}
+.iii {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    width: 100%;
+    height: 600px;
+    
+}
+.im {
+    width: 100%;
+    height: 120%;
+    background-color: black;
+    opacity: 150%;
+}
+.b {
+    position: absolute;
+    top: 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    left: 8%;
+    background-color: black;
+}
+.h11 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    align-items: center;
+
+}
+.n11 {
+    background-color: white;
+    width: 40%;
+}
+.uuu {
+    position: absolute;
+    top: 90px;
+    font-weight: bold;
+    text-transform: uppercase ;
+    z-index: 2;
+    display: flex;
+    left: 50%;
+    gap: 10%;
+    font-size: 20px;
+}
+.uuui {
+    list-style: none;
+
+}
+.uuui:hover {
+    cursor: pointer;
+}
+.tt {
+    position: absolute;
+    top: 260px;
+    left: 100px; 
+    width:38%;
+}
+.w {
+    font-size: 50px;
+}
+.sh {
+    color: tomato;
+    font-weight: bold;
+    font-size: 56px;
+}
+.lp{
+    letter-spacing: 5px;
+    color: white;
+    
+}
+.lp::selection {
+    background-color: black;
+}
+.btn {
+    width: 30%;
+    background-color: #0389FF;
+    color: white;
+    height: 40px;
+    margin-left: 10px;
+    outline-color: #0389FF;
+    font-size: 20px;
+
+}
+.btn:hover {
+    background-color: #0389ffef;
+    cursor: pointer;
+}
+.cardsec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1 {
+    width: 20%;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0px 0px 20px;
+    margin-left: 60px;
+
+
+}
+.card1 >.c1i {
+    width: 30%;
+    padding: 10px;
+}
+#ta {
+    margin-left: 10px;
+}
+.tap  {
+    color: rgba(128, 128, 128, 0.699);
+}
+.lm:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+.aisec {
+    width: 50%;
+    margin: 20px;
+    float: left;
+}
+.aim {
+    width: 80%;
+}
+.det {
+    width: 40%;
+    position: relative;
+    top: 100px;
+    left: -200px;
+    float: right;
+    font-size: 19px;
+}
+.detu {
+    color: #1273EB;
+}
+.ltt {
+    color: black;
+}
+.exp {
+    width: 99%;
+    height: 30%;
+    background-color: #F8F9FA;
+    position: absolute;
+    top: 1450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+  
+}
+.n {
+    color: #0389FF;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fn {
+    color: rgba(128, 128, 128, 0.699);
+}
+.pos {
+    position: absolute;
+    top: 1700px;
+    left: 40%;
+}
+.ca1 {
+    width: 99%;
+    height: 50%;
+    position: absolute;
+    top: 1850px;
+    display: flex;
+    justify-content: space-around;
+}
+.ca1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvi7HpQ-_PMSMOFrj1hwjp6LDcI-jm3Ro0Xw&s);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.a {
+    width: 20%;
+    position: absolute;
+top: 1800px;
+left: 70px;
+box-shadow: 0px 0px 10px ;    
+}
+
+
+.b {
+    width: 20%;
+    position: absolute;
+top: 1800px;
+left: 500px;
+box-shadow: 0px 0px 10px ;    
+}
+.c {
+    width: 20%;
+    position: absolute;
+top: 1800px;
+left: 900px;
+box-shadow: 0px 0px 10px ;    
+}
+#ho:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.pos2 {
+    position: absolute;
+    top: 2100px;
+    left: 40%;
+}
+.pos3 {
+    position: absolute;
+    top: 2000px;
+    left: 45%;
+    font-size: 150px;
+    font-weight: bold;
+}
+.loro {
+    position: absolute;
+    top: 2300px;
+    left: 20%;
+}
+.ser {
+    width: 98%;
+    height: 90%;
+    background-color: #F8F9FA;
+    position: absolute;
+    top: 2400px;
+    margin: auto;
+}
+.a4 {
+    margin-left: 20%;
+}
+.land {
+    width: 15%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px groove;
+    cursor: pointer;
+    margin-left: 560px;
+}
+.ob{
+    margin-top: 2200px;
+  margin-left: 600px;
+}
+.kuch {
+    margin-left: 400px;
+    color: #767676;
+}
+.sp {
+    margin-left: 20%;
+   
+}
+.bb {
+    margin-left: -150px;
+    cursor: pointer;
+}
+.dd {
+        margin-left: -150px;
+        margin-top: -10px;
+        cursor: pointer;
+    
+}
+.footer {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #F8F9FA;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box1 {
+    width: 20%;
+    padding: 10px;
+    height: 20%;
+
+}
+.box {
+    width: 9.5%;
+    padding: 10px;
+    height: 20%;
+
+}
+.lnd {
+    list-style: none;
+}
+.prin{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
